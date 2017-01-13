@@ -46,7 +46,7 @@ fi
 # -------------
 
 # Exposes docker on all interfaces, i.e. for development.
-export EXPOSE_DOCKER=false
+export EXPOSE_DOCKER=true
 
 # Installs kubectl on host.
 export INSTALL_KUBECTL_ON_HOST=false
